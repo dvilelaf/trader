@@ -69,6 +69,7 @@ PATH_TO_VAR = {
     "models/params/args/fund_requirements": "FUND_REQUIREMENTS",
     "config/safe_contract_addresses/polygon": "SAFE_CONTRACT_ADDRESS",
     "models/params/args/is_running_on_polymarket": "IS_RUNNING_ON_POLYMARKET",
+    "config/is_running_on_polymarket": "IS_RUNNING_ON_POLYMARKET",
     "models/params/args/polymarket_builder_program_enabled": "POLYMARKET_BUILDER_PROGRAM_ENABLED",
     "config/polymarket_builder_program_enabled": "POLYMARKET_BUILDER_PROGRAM_ENABLED",
     "config/usdc_address": "USDC_ADDRESS",
@@ -86,6 +87,8 @@ PATH_TO_VAR = {
     "models/params/args/use_multi_bets_mode": "USE_MULTI_BETS_MODE",
     "models/params/args/use_fallback_strategy": "USE_FALLBACK_STRATEGY",
     "models/params/args/mech_wrapped_native_token_address": "MECH_WRAPPED_NATIVE_TOKEN_ADDRESS",
+    "models/params/args/is_outcome_side_threshold_filter_enabled": "IS_OUTCOME_SIDE_THRESHOLD_FILTER_ENABLED",
+    "models/params/args/outcome_side_threshold_filter_threshold": "OUTCOME_SIDE_THRESHOLD_FILTER_THRESHOLD",
 }
 
 CONFIG_REGEX = r"\${.*?:(.*)}"
